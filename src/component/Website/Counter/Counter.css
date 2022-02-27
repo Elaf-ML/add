@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'HindSiliguri';
+  src: url("../../../assets/Fonts/HindSiliguri-Medium.ttf");
+}
+
+.Centers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mCounter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background: linear-gradient(#fff, #fff);
+  width: 600px;
+  border-radius: 10px;
+  z-index: 1000;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mCounter .BottomColorAnimation {
+  position: absolute;
+  background: #1E90FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  width: 0.5%;
+  height: 100%;
+  bottom: 0px;
+  border-radius: 5px;
+}
+
+.mCounter:hover .BottomColorAnimation {
+  background-color: #1E90FF;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.mCounter:hover .Happy-client .number {
+  color: white;
+}
+
+.mCounter:hover .Happy-client .Titlte {
+  color: white;
+}
+
+.mCounter .Happy-client {
+  width: 250px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.mCounter .Happy-client .HappySvg {
+  width: 30px;
+  height: 30px;
+  background: #fffefe;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mCounter .Happy-client .number {
+  font-family: "HindSiliguri";
+  font-size: 33px;
+  line-height: 0px;
+  color: #000000;
+}
+
+.mCounter .Happy-client .Titlte {
+  font-family: "HindSiliguri";
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .mCounter {
+    width: 500px;
+    margin-top: 400px;
+  }
+}
+
+@media (max-width: 1520px) {
+  .mCounter {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .mCounter {
+    margin-top: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mCounter {
+    width: 470px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=Counter.css.map */

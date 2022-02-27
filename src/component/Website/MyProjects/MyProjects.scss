@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'HindSiliguri';
+    src: url('../../../assets/Fonts/HindSiliguri-Medium.ttf');
+}
+
+
+.Mproject{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 10%;
+
+hr{
+    width: 40px;
+    height: 2px;
+    border: none;
+    background: #e94b81;
+}
+.ProjectTitle{
+display: flex;
+font-family:'Times New Roman', Times, serif;
+font-size: 45px;
+color: #000000;
+line-height: 0px;
+}
+.ProjectCards{
+    display: flex;  
+    flex-wrap: wrap;
+  margin-top: 1%;
+
+    
+.P1{
+display: flex;
+width: 760px;
+height: 400px;
+border-radius: 10px;
+padding-bottom: 70px;
+
+.InnerDiv{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        background: #ffffff;
+        width: 300px;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+.InnerDivTitle{
+  
+        color: #000;
+        font-family: 'HindSiliguri'; 
+                   font-size: 43px;
+    }
+    .UnderText{
+        color: gray;
+        font-weight: 400;
+        font-size: 21px;
+        font-family: 'HindSiliguri';
+        }
+.View{
+border: none;
+width: 240px;
+height: 50px;
+background:linear-gradient(200deg,#c65ea4,#8876d2);
+border-radius: 40px;
+color: #ffffff;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer;
+font-family: 'HindSiliguri';
+
+}
+
+}
+
+
+.InnerDiv2{
+display: flex;
+align-items: center;
+    flex: 1;
+background-image:url('../../../assets/SVG/bland.svg');
+width: 300px;
+height: 100%;
+border-radius: 0px 10px 10px 0;
+
+.rocket{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    transform: scale(1.2);
+    transition: 0.1s ease-in;
+    &:hover{
+transform: rotate(350deg)  scale(1.4) ;
+
+    }
+        }
+}
+
+
+
+}
+
+
+
+// .P2{
+//     display: flex;
+//     width: 760px;
+//     height: 400px;
+//     border-radius: 10px;
+//     padding-bottom: 70px;
+
+//     .P2InnerDiv{
+ 
+
+//     flex: 1;
+//     background-image:url('../../../assets/SVG/Bland1.svg');
+//     width: 300px;
+//     height: 100%;
+//     border-radius: 10px 0px 0px 10px;
+
+
+    
+//     }
+    
+//     .P2InnerDiv2{
+    
+//         flex: 1;
+//     background: #ffffff;
+//     width: 300px;
+//     height: 100%;
+
+
+//     }
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+}
+@media (max-width:768px) {
+
+
+    .Mproject{
+
+        margin-top: 20%;
+        overflow: hidden;
+        .ProjectCards{
+        .P1{
+            display: flex;
+        width: 600px;
+        height: 300px;
+
+
+}
+
+    }}
+
+}
+
+@media (max-width:600px) {
+
+
+    .Mproject{
+
+        margin-top: 20%;
+        overflow: hidden;
+        .ProjectCards{
+        .P1{
+            display: flex;
+        width: 550px;
+        height: 300px;
+
+
+}
+
+    }}
+
+}
+
+@media (max-width:500px) {
+
+
+    .Mproject{
+
+        margin-top: 20%;
+        overflow: hidden;
+        .ProjectCards{
+        .P1{
+            display: flex;
+        width: 470px;
+        height: 300px;
+.InnerDiv{
+.View{
+
+width: 200px;
+height: 40px;
+}
+}
+
+}
+
+    }}
+
+}

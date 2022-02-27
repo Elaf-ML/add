@@ -1,0 +1,500 @@
+@font-face {
+    font-family: 'HindSiliguri';
+    src: url('../../../assets/Fonts/HindSiliguri-Medium.ttf');
+}
+$Desktop : 1200px;
+$Laptop : 1024px;
+$Tablet : 768px;
+$Phone : 480px;
+
+.sticky{
+    position: fixed;
+z-index: 1000000000000000;
+
+    .Main-Header{
+        transition: 250ms ease-in ;
+.Header-Name{
+color: white;
+
+}
+
+.container{
+    justify-content:space-evenly;
+    ul{
+    li{
+        text-decoration: none;
+
+a{
+    color: white;
+    font-family: "HindSiliguri"; 
+    font-weight:lighter;
+    
+    &:hover{
+
+        background: #ffffff;
+        color: #1E90FF;
+        padding: 10%;
+        border-radius: 5px;
+        
+        }
+}
+    }    
+    }
+
+    .LetsTalk{
+background: #e94b81;
+color: #fff;
+margin-right: 2rem;
+
+    }
+}
+}
+
+
+}
+
+.Main-Header{
+position: fixed;
+width: 100%;
+height: 8vh;
+background: transparent;
+transition: 880ms ease-in ;
+z-index: 1000;
+display: flex;
+justify-content: center;
+.Header-Name{
+    color: rgb(255, 255, 255);
+    margin: 16px 20px;
+    font-family: "HindSiliguri";
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.49);
+    font-size: 30px;
+    }
+
+
+.container{
+display: flex;
+align-items: center;
+
+.menu{
+    display: none;
+}
+ul{
+    display: flex;
+    font-size: 17px;
+    font-family: "HindSiliguri";
+    li{
+list-style: none;
+margin: 20px;
+
+color: rgb(255, 255, 255);
+
+&:hover{
+color:#e94b81;
+cursor: pointer;
+border-radius: 5px;
+
+
+}
+    }
+}
+
+.LetsTalk{
+    color: white;
+    width: 100px;
+    border: none;
+    background:linear-gradient( #e94b81,#e94b81);
+
+    font-size: 18px;
+    border-radius: 5px;
+    height: 30px;
+    margin-right: 7rem;
+    cursor: pointer;
+}
+
+}
+
+
+}
+
+
+
+@media only screen and (max-width : $Tablet) {
+    .Main-Header{
+padding: 0px;
+.Header-Name{
+display: none;
+
+}
+.container{
+    width: 730px;
+
+
+ul{
+padding: 0px;
+li{
+
+padding: 16px;
+font-size: 14px;
+}
+
+}
+.LetsTalk{
+    width:200px;
+    height: 30px;
+    font-size: 14px;
+    margin-right: 2rem;
+    }
+
+}
+
+    }
+    
+}
+
+
+@media only screen and (max-width : 738px){
+    .Main-Header{
+        padding: 0px;
+        .container{
+            width: 680px;
+            ul{
+                li{
+                 a{
+                 font-size: 11px;
+     
+                 }
+     
+                }
+     
+             }
+      
+            .LetsTalk{
+                width:200px;
+                height: 30px;
+                font-size: 11px;
+                
+                }
+        }
+      
+    }        
+
+}
+
+
+@media only screen and (max-width : 684px){
+
+    .Main-Header{
+        padding: 5px;
+
+        .container{
+            width: 680px;
+        
+        ul{
+           li{
+            a{
+            font-size: 11px;
+
+            }
+
+           }
+
+        }
+
+        .LetsTalk{
+            width:70px;
+            height: 30px;
+            font-size: 11px;
+            
+            }
+        }
+    
+    }
+
+}
+
+
+
+    @media only screen and (max-width :  652px){
+
+        .Main-Header{
+     
+    
+            .container{
+        
+            
+            ul{
+               li{
+                a{
+                font-size: 11px;
+    
+                }
+    
+               }
+    
+            }
+    
+            .LetsTalk{
+                width:60px;
+                height: 30px;
+                font-size: 11px;
+                
+                }
+            }
+        
+        }
+
+
+    }
+
+
+
+    @media only screen and (max-width :  644px){
+
+        .Main-Header{
+     
+    
+            .container{
+        
+            
+            ul{
+               li{
+                a{
+                font-size: 10px;
+    
+                }
+    
+               }
+    
+            }
+    
+            .LetsTalk{
+                width:60px;
+                height: 30px;
+                font-size: 11px;
+                
+                }
+            }
+        
+        }
+    }
+
+
+    @media only screen and (max-width :  618px){
+
+
+
+        .Main-Header{
+     
+    
+            .container{
+        
+            
+            ul{
+               li{
+                a{
+                font-size: 9.5px;
+    
+                }
+    
+               }
+    
+            }
+    
+            .LetsTalk{
+                width:60px;
+                height: 30px;
+                font-size: 11px;
+                
+                }
+            }
+        
+        }
+
+
+
+
+
+
+
+    }
+
+
+    @media only screen and (max-width :  606px){
+
+
+
+        .Main-Header{
+     
+    
+            .container{
+        
+            
+            ul{
+               li{
+                a{
+                font-size: 9px;
+    
+                }
+    
+               }
+    
+            }
+    
+            .LetsTalk{
+                width:50px;
+                height: 30px;
+                font-size: 9px;
+                
+                }
+            }
+        
+        }
+    }
+
+
+
+
+
+    @media only screen and (max-width :  582px){
+
+  
+            .container{
+        
+            
+            ul{
+               li{
+                a{
+                font-size: 1px;
+    
+                }
+    
+               }
+    
+            }
+    
+    
+
+    }
+}
+
+
+
+
+    @media only screen and (max-width :  651px){
+
+        .Main-Header{
+     
+    .Header-Name{
+font-size: 7px;
+
+    }
+            .container{
+        width: 650px;
+           
+            ul{
+               
+               li{
+                padding: 15px;
+                a{
+                font-size: 9px;
+    
+                }
+    
+               }
+    
+            }
+    
+            .LetsTalk{
+                width:39px;
+                height: 30px;
+                font-size: 6px;
+            
+                }
+            }
+        
+        }
+
+
+    }
+
+
+
+
+    @media only screen and (max-width :  768px){
+
+        .Main-Header{
+     
+    .Header-Name{
+font-size: 17px;
+
+    }
+            .container{
+        
+
+           
+            ul{
+               
+               li{
+                padding: 13px;
+                a{
+                font-size: 9px;
+    
+                }
+    
+               }
+    
+            }
+            .LetsTalk{
+                width:39px;
+                height: 30px;
+                font-size: 6px;
+            
+                }
+            }
+        
+        }
+
+
+    }
+
+
+
+    @media only screen and (max-width :  2000px){
+
+        .Main-Header{
+     
+        
+                
+                }
+
+    }
+
+    
+
+    @media only screen and (max-width :  980px){
+
+
+        .Main-Header{
+
+                    .container{
+                        
+
+                      h1{
+
+
+                      }
+                    ul{
+                       
+                    display: none;
+                    }
+            
+                
+                }
+
+
+
+
+.LetsTalk{display: none;}
+
+    }}

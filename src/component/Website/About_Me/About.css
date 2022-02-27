@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'HindSiliguri';
+  src: url("../../../assets/Fonts/HindSiliguri-Medium.ttf");
+}
+
+.AboutDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25%;
+  margin-left: 10%;
+  z-index: 1000;
+}
+
+.AboutDiv .About-LeftSide {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 500px;
+  height: 500px;
+}
+
+.AboutDiv .About-LeftSide .AboutElafImg {
+  width: 100%;
+  height: 100%;
+}
+
+.AboutDiv .About-RightSide {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.AboutDiv .About-RightSide .AboutBTN {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.AboutDiv .About-RightSide .AboutBTN .Download_CV {
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  background: transparent;
+  color: black;
+  font-weight: 500;
+  border: 2px solid #1E90FF;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.AboutDiv .About-RightSide .AboutBTN .Download_CV a {
+  text-decoration: none;
+}
+
+.AboutDiv .About-RightSide .AboutBTN .Download_CV:hover {
+  background: #1E90FF;
+  color: white;
+}
+
+.AboutDiv .About-RightSide .AboutBTN .Download_CV img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.AboutDiv .About-RightSide .AboutBTN .Hire-me {
+  border: none;
+  width: 200px;
+  height: 60px;
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1E90FF), to(#1E90FF));
+  background: linear-gradient(#1E90FF, #1E90FF);
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.AboutDiv .About-RightSide .AboutBTN .Hire-me:hover {
+  border: 2px solid #1E90FF;
+  background: transparent;
+  color: black;
+  font-weight: 500;
+}
+
+.AboutDiv .About-RightSide .AboutBTN .Hire-me img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.AboutDiv .About-RightSide .Let-me-intoduce-meself {
+  letter-spacing: 15px;
+  font-size: 40px;
+  font-family: "HindSiliguri";
+  line-height: 50px;
+}
+
+.AboutDiv .About-RightSide .AboutMeNote {
+  font-size: 20px;
+  color: gray;
+  width: 86%;
+  height: 30%;
+  display: -webkit-inline-box;
+  font-family: "HindSiliguri";
+}
+
+@media only screen and (max-width: 768px) {
+  .AboutDiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .AboutDiv .About-RightSide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 1500px) {
+  .AboutDiv {
+    margin-top: 300px;
+    margin-bottom: 140px;
+  }
+  .AboutDiv .AboutBTN {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 1015px) {
+  .AboutDiv {
+    margin-top: 0px;
+    margin-bottom: 340px;
+  }
+  .AboutDiv .AboutBTN {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .AboutDiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .AboutDiv .About-LeftSide .AboutElafImg {
+    height: 400px;
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=About.css.map */

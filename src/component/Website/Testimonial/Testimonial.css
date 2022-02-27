@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'HindSiliguri';
+  src: url("../../../assets/Fonts/HindSiliguri-Medium.ttf");
+}
+
+.mTestimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100ch;
+  margin-top: 10%;
+}
+
+.mTestimonial .Settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mTestimonial .mTitle {
+  color: #000000;
+  line-height: 0px;
+  font-size: 36px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mTestimonial .underText {
+  color: #a1a4a7;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.mTestimonial .mTestimonialCard1 {
+  width: 357px;
+  height: 460px;
+  -webkit-box-shadow: -4px -5px 35px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px -5px 35px 0px rgba(0, 0, 0, 0.75);
+  margin: 60px;
+  border-radius: 10px;
+}
+
+.mTestimonial .mTestimonialCard1:hover .BottomDiv1 .cImg1 {
+  -webkit-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.mTestimonial .mTestimonialCard1 .TopDiv1 {
+  background: #f8f9fc;
+  width: 100%;
+  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  line-height: 22px;
+  border-radius: 10px;
+}
+
+.mTestimonial .mTestimonialCard1 .TopDiv1 .hr12 {
+  border: none;
+  width: 100px;
+  height: 5px;
+  background: #12a327;
+  border-radius: 2330px;
+}
+
+.mTestimonial .mTestimonialCard1 .TopDiv1 .hr21 {
+  border: none;
+  width: 100px;
+  height: 5px;
+  background: #12a327;
+  border-radius: 2330px;
+}
+
+.mTestimonial .mTestimonialCard1 .TopDiv1 .comment1 {
+  padding: 10px;
+  font-family: 'HindSiliguri';
+  color: gray;
+}
+
+.mTestimonial .mTestimonialCard1 .BottomDiv1 {
+  position: relative;
+  background-image: url("../../../assets/SVG/wave10.svg");
+  background-size: cover;
+  width: 100%;
+  height: 230px;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-radius: 10px;
+}
+
+.mTestimonial .mTestimonialCard1 .BottomDiv1 .cImg1 {
+  position: absolute;
+  background-image: url("../../../assets/Images/Custom1.png");
+  width: 150px;
+  height: 150px;
+  border-radius: 1000px;
+  top: -30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px #ffffff solid;
+}
+
+.mTestimonial .mTestimonialCard1 .BottomDiv1 .customerName1 {
+  color: #ffffff;
+  font-family: 'HindSiliguri';
+}
+
+.mTestimonial .mTestimonialCard {
+  width: 357px;
+  height: 460px;
+  -webkit-box-shadow: -4px -5px 35px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px -5px 35px 0px rgba(0, 0, 0, 0.75);
+  margin: 60px;
+  border-radius: 10px;
+}
+
+.mTestimonial .mTestimonialCard:hover .BottomDiv .cImg {
+  -webkit-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.mTestimonial .mTestimonialCard .TopDiv {
+  background: #f8f9fc;
+  width: 100%;
+  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  line-height: 22px;
+  border-radius: 10px;
+}
+
+.mTestimonial .mTestimonialCard .TopDiv .hr1 {
+  border: none;
+  width: 100px;
+  height: 5px;
+  background: #0b708a;
+  border-radius: 2330px;
+}
+
+.mTestimonial .mTestimonialCard .TopDiv .hr2 {
+  border: none;
+  width: 100px;
+  height: 5px;
+  background: #0b708a;
+  border-radius: 2330px;
+}
+
+.mTestimonial .mTestimonialCard .TopDiv .comment {
+  padding: 10px;
+  font-family: 'HindSiliguri';
+  color: gray;
+}
+
+.mTestimonial .mTestimonialCard .BottomDiv {
+  position: relative;
+  background-image: url("../../../assets/SVG/wave9.svg");
+  background-size: cover;
+  width: 100%;
+  height: 230px;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-radius: 10px;
+}
+
+.mTestimonial .mTestimonialCard .BottomDiv .cImg {
+  position: absolute;
+  background-image: url("../../../assets/Images/Custom2.png");
+  width: 150px;
+  height: 150px;
+  border-radius: 1000px;
+  top: -30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 3px #ffffff solid;
+}
+
+.mTestimonial .mTestimonialCard .BottomDiv .customerName {
+  color: #ffffff;
+  font-family: 'HindSiliguri';
+}
+/*# sourceMappingURL=Testimonial.css.map */

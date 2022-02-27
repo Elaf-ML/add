@@ -1,0 +1,202 @@
+
+@font-face {
+    font-family: 'HindSiliguri';
+    src: url('../../../assets/Fonts/HindSiliguri-Medium.ttf');
+}
+
+.AboutDiv{
+    display:flex;
+    justify-content: center;
+    margin-top:25%;
+    margin-left:10%;
+    z-index: 1000;
+
+.About-LeftSide{
+flex: 1;
+width: 500px;
+height: 500px;
+.AboutElafImg{
+    width: 100%;
+    height: 100%;
+
+}
+
+}
+
+.About-RightSide{
+flex: 1;
+
+.AboutBTN{
+display: flex;
+
+.Download_CV{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    background:transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border: 2px solid #1E90FF;
+    border-radius: 10px;
+    a{
+text-decoration: none;
+
+
+    }
+    cursor: pointer;
+&:hover{
+
+background: #1E90FF;
+color: white;
+
+}
+    img{
+    
+        width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    }
+    
+    
+    }
+    
+    .Hire-me{
+    
+    border: none;
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    background:linear-gradient( #1E90FF,#1E90FF);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover{
+
+        border: 2px solid #1E90FF;
+        background:transparent;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+
+        }
+    img{
+    
+        width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    }
+    
+    
+    }
+}
+
+.Let-me-intoduce-meself{
+letter-spacing: 15px;
+font-size: 40px;
+font-family: "HindSiliguri";
+line-height: 50px;
+}
+
+.AboutMeNote{
+font-size: 20px;
+color: gray;
+width: 86%;
+height: 30%;
+display:-webkit-inline-box;
+font-family: "HindSiliguri";
+
+
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+@media only screen and (max-width:768px) {
+    
+.AboutDiv{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+align-items: center;
+
+
+
+
+
+
+.About-RightSide{
+display: flex;
+flex-direction: column;
+align-items: center
+
+}
+
+}
+
+
+}
+
+
+@media (max-width:1500px) {
+
+.AboutDiv{
+margin-top: 300px;
+margin-bottom: 140px;
+.AboutBTN{
+padding-top: 30px;
+
+}
+
+}
+
+}
+
+@media (max-width:1015px) {
+
+    .AboutDiv{
+    margin-top: 0px;
+    margin-bottom: 340px;
+    .AboutBTN{
+    padding-top: 30px;
+    
+    }
+    
+    }
+    
+    }
+    @media (max-width:500px) {
+
+        .AboutDiv{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+  .About-LeftSide{
+
+    .AboutElafImg{
+
+        height: 400px;
+width: 400px;
+    }
+
+  }
+  .AboutBTN{
+
+  }
+        
+        }
+        
+        }
+        

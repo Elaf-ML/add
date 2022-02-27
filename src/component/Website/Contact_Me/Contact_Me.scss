@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'HindSiliguri';
+    src: url('../../../assets/Fonts/HindSiliguri-Medium.ttf');
+}
+
+
+
+.mContact{
+display: flex;   
+justify-content: center;
+flex-direction: column;
+align-items:center;
+background-image: url('../../../assets/SVG/wave13.svg');
+width: 100%;
+height: 900px;
+z-index: 100;
+
+background-size: cover;
+
+.ContactDiv{
+display: flex;
+height: 700px;
+margin-top: 60px;
+background: rgb(255, 255, 255);
+-webkit-box-shadow: 5px 5px 15px 3px #000000; 
+box-shadow: 5px 5px 15px 3px #921717;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+
+
+.Left{
+
+height: 100%;
+text-align: left;
+
+.get{
+font-size: 40px;
+margin: 40px;
+font-family: 'HindSiliguri';
+font-weight: bold;
+}
+hr{
+border: none;
+background: #208efe;
+width: 100px;
+height: 4px;
+border-radius: 20px;
+margin-left: 45px;
+margin-top: -40px;
+}
+.ContactNote{
+color: gray;
+font-family: "HindSiliguri";
+line-height: 20px;
+text-align: left;
+margin-left:40px;}
+
+.LDiv{
+display: flex;
+align-content: center;
+padding: 12px;
+h2{
+
+padding-left: 10px;
+font-size: 20px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+}
+.Location{
+background: #208efe;
+width: fit-content;
+padding: 20px;
+border-radius:20px ;
+height: fit-content;
+margin-left: 40px;
+.Inner{
+color: white;
+transform: scale(1.5);
+}
+}
+
+}
+
+.Right{
+    width: 450px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  padding: 10px;
+    .mail{
+
+        font-size: 35px;
+        margin: 40px;
+        font-family: 'HindSiliguri';
+        font-weight: bold;
+        
+    }
+    hr{
+        border: none;
+        background: #208efe;
+        width: 100px;
+        height: 4px;
+        border-radius: 20px;
+        margin-left: 45px;
+        margin-top: -40px;
+        }
+    
+
+
+
+
+.MailBox{
+display: block;
+margin: 20px;
+.NameInfo{
+display: flex;
+justify-content: center;
+
+input{
+
+border: none;
+background: #ffffff;
+margin: 10px;
+padding: 10px;
+height: 30px;
+width: 180px;
+color: rgb(8, 8, 8);
+font-weight: bold;
+border-radius: 20px;
+box-shadow: 1px 1px 4px 1px #000000;
+outline: none;
+
+
+}
+
+
+}
+
+
+}
+
+
+.Message{
+height: 200px;
+width: 430px;
+box-shadow: 1px 1px 9px 1px #000000;
+border-radius: 20px;
+text-align: center;
+}
+
+.Send{
+margin-top: 20px;
+border: none;
+width: 150px;
+height: 50px;
+border-radius: 10px;
+background: #208efe;
+color: white;
+font-size: 19px;
+font-family: "HindSiliguri";
+cursor: pointer;
+
+}
+
+    }
+    
+
+}
+}
+
+@media (max-width:881px){
+    .mContact{
+margin-top: 70%;
+
+
+.ContactDiv{
+width: 600px;
+.Right{
+    display: none;
+}
+}
+
+    }
+
+
+}
+
+
+@media (max-width:500px){
+.mContact{
+    margin-top: 100%;
+    .ContactDiv{
+
+width: 90%;
+padding: 10px;
+
+    }
+}
+}
+
+
+
+@media (max-width:950px){
+    .mContact{
+        margin-top: 60%;
+        .ContactDiv{
+    
+    width: 90%;
+    padding: 10px;
+    
+        }
+    }
+    }
+
+
+
+@media (max-width:650px){
+    .mContact{
+        margin-top: 100%;
+        .ContactDiv{
+    
+    width: 90%;
+    padding: 10px;
+    
+        }
+    }
+    }
+
+
+    
+@media (max-width:500px){
+    .mContact{
+        margin-top: 100%;
+        .ContactDiv{
+    
+    width: 90%;
+    padding: 10px;
+
+    
+        }
+    }
+    }

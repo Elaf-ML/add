@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'HindSiliguri';
+  src: url("../../../assets/Fonts/HindSiliguri-Medium.ttf");
+}
+
+.Work-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin-top: 30rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Work-container .Skills-left {
+  font-family: "HindSiliguri";
+}
+
+.Work-container .Skills-left .Skills-title {
+  color: #e94b81;
+}
+/*# sourceMappingURL=Work.css.map */

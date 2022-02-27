@@ -1,0 +1,340 @@
+@font-face {
+  font-family: 'HindSiliguri';
+  src: url("../../../assets/Fonts/HindSiliguri-Medium.ttf");
+}
+
+.mServicesDiv {
+  width: 100%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1000;
+  margin-top: 5%;
+}
+
+.mServicesDiv .mServicesDivTitle {
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  line-height: 10px;
+}
+
+.mServicesDiv .mServicesDivTitle .ServiceTitle {
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.mServicesDiv .mServicesDivTitle hr {
+  width: 40px;
+  height: 2px;
+  border: none;
+  background: #e94b81;
+}
+
+.mServicesDiv .ServicesBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0px;
+}
+
+.mServicesDiv .ServicesBox .UiBox {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 430px;
+  height: 340px;
+  margin: 30px;
+  border-radius: 10px;
+  padding-top: 10px;
+  line-height: 0px;
+  cursor: pointer;
+}
+
+.mServicesDiv .ServicesBox .UiBox .BG {
+  background: #e6e4e4;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: black;
+  padding: 20px;
+  z-index: 1000;
+  border-radius: 30222px;
+}
+
+.mServicesDiv .ServicesBox .UiBox .BG .F {
+  width: 50px;
+  height: 50px;
+  color: black;
+}
+
+.mServicesDiv .ServicesBox .UiBox .ServiceNote {
+  line-height: 20px;
+  font-family: 500;
+  font-family: "HindSiliguri";
+  color: gray;
+  width: 300px;
+  z-index: 1000;
+}
+
+.mServicesDiv .ServicesBox .UiBox h1 {
+  margin: 34px;
+  font-family: "HindSiliguri";
+  z-index: 1000;
+}
+
+.mServicesDiv .ServicesBox .UiBox .BottomColorAnimation {
+  position: absolute;
+  background: #208efe;
+  width: 100%;
+  height: 10px;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+.mServicesDiv .ServicesBox .UiBox:hover .BottomColorAnimation {
+  background-color: #208efe;
+  height: 120px;
+  margin-top: 0px;
+  height: 350px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.mServicesDiv .ServicesBox .UiBox:hover .ServiceNote {
+  color: white;
+}
+
+.mServicesDiv .ServicesBox .UiBox:hover h1 {
+  color: white;
+}
+
+.mServicesDiv .ServicesBox .UiBox:hover .BG {
+  background: white;
+}
+
+.mServicesDiv .ServicesBox .UiBox:hover .BG .F {
+  color: #208efe;
+}
+
+.mServicesDiv .ServicesBox .MobileBox {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 430px;
+  height: 340px;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 10px;
+  line-height: 0px;
+  cursor: pointer;
+}
+
+.mServicesDiv .ServicesBox .MobileBox .ServiceNoteMobile {
+  line-height: 20px;
+  font-family: 500;
+  font-family: "HindSiliguri";
+  color: gray;
+  width: 300px;
+  z-index: 100;
+}
+
+.mServicesDiv .ServicesBox .MobileBox .BG {
+  background: #e6e4e4;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px;
+  z-index: 1000;
+  border-radius: 34440px;
+}
+
+.mServicesDiv .ServicesBox .MobileBox .BG .F {
+  width: 50px;
+  height: 50px;
+}
+
+.mServicesDiv .ServicesBox .MobileBox h1 {
+  margin: 34px;
+  font-family: "HindSiliguri";
+  z-index: 100;
+}
+
+.mServicesDiv .ServicesBox .MobileBox .BottomColorAnimation {
+  position: absolute;
+  background: #208efe;
+  width: 100%;
+  height: 10px;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+.mServicesDiv .ServicesBox .MobileBox:hover .BottomColorAnimation {
+  background-color: #208efe;
+  height: 360px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.mServicesDiv .ServicesBox .MobileBox:hover .ServiceNoteMobile {
+  color: white;
+}
+
+.mServicesDiv .ServicesBox .MobileBox:hover h1 {
+  color: white;
+}
+
+.mServicesDiv .ServicesBox .MobileBox:hover .BG {
+  background: white;
+}
+
+.mServicesDiv .ServicesBox .MobileBox:hover .BG .F {
+  color: #208efe;
+}
+
+.mServicesDiv .ServicesBox .Web-development {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 430px;
+  height: 340px;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 10px;
+  line-height: 0px;
+  cursor: pointer;
+}
+
+.mServicesDiv .ServicesBox .Web-development .ServiceNoteDevelopment {
+  line-height: 20px;
+  font-family: 500;
+  font-family: "HindSiliguri";
+  color: gray;
+  width: 300px;
+  z-index: 1000;
+}
+
+.mServicesDiv .ServicesBox .Web-development .BG {
+  background: #e6e4e4;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 30px;
+  z-index: 100;
+}
+
+.mServicesDiv .ServicesBox .Web-development .BG .F {
+  width: 50px;
+  height: 50px;
+}
+
+.mServicesDiv .ServicesBox .Web-development h1 {
+  margin: 34px;
+  font-family: "HindSiliguri";
+  z-index: 100;
+}
+
+.mServicesDiv .ServicesBox .Web-development .BottomColorAnimation {
+  position: absolute;
+  background: #208efe;
+  width: 100%;
+  height: 10px;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+.mServicesDiv .ServicesBox .Web-development:hover .BottomColorAnimation {
+  background-color: #208efe;
+  height: 360px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.mServicesDiv .ServicesBox .Web-development:hover .ServiceNoteDevelopment {
+  color: white;
+}
+
+.mServicesDiv .ServicesBox .Web-development:hover h1 {
+  color: white;
+}
+
+.mServicesDiv .ServicesBox .Web-development:hover .BG {
+  background: white;
+}
+
+.mServicesDiv .ServicesBox .Web-development:hover .BG .F {
+  color: #208efe;
+}
+
+@media (max-width: 768px) {
+  .mServicesDiv {
+    margin-top: 400px;
+  }
+  .mServicesDiv .ServicesBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=Services.css.map */

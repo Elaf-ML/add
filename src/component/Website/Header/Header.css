@@ -1,0 +1,274 @@
+@font-face {
+  font-family: 'HindSiliguri';
+  src: url("../../../assets/Fonts/HindSiliguri-Medium.ttf");
+}
+
+.sticky {
+  position: fixed;
+  z-index: 1000000000000000;
+}
+
+.sticky .Main-Header {
+  -webkit-transition: 250ms ease-in;
+  transition: 250ms ease-in;
+}
+
+.sticky .Main-Header .Header-Name {
+  color: white;
+}
+
+.sticky .Main-Header .container {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sticky .Main-Header .container ul li {
+  text-decoration: none;
+}
+
+.sticky .Main-Header .container ul li a {
+  color: white;
+  font-family: "HindSiliguri";
+  font-weight: lighter;
+}
+
+.sticky .Main-Header .container ul li a:hover {
+  background: #ffffff;
+  color: #1E90FF;
+  padding: 10%;
+  border-radius: 5px;
+}
+
+.sticky .Main-Header .container .LetsTalk {
+  background: #e94b81;
+  color: #fff;
+  margin-right: 2rem;
+}
+
+.Main-Header {
+  position: fixed;
+  width: 100%;
+  height: 8vh;
+  background: transparent;
+  -webkit-transition: 880ms ease-in;
+  transition: 880ms ease-in;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Main-Header .Header-Name {
+  color: white;
+  margin: 16px 20px;
+  font-family: "HindSiliguri";
+  letter-spacing: 5px;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.49);
+  font-size: 30px;
+}
+
+.Main-Header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Main-Header .container .menu {
+  display: none;
+}
+
+.Main-Header .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  font-family: "HindSiliguri";
+}
+
+.Main-Header .container ul li {
+  list-style: none;
+  margin: 20px;
+  color: white;
+}
+
+.Main-Header .container ul li:hover {
+  color: #e94b81;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Main-Header .container .LetsTalk {
+  color: white;
+  width: 100px;
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e94b81), to(#e94b81));
+  background: linear-gradient(#e94b81, #e94b81);
+  font-size: 18px;
+  border-radius: 5px;
+  height: 30px;
+  margin-right: 7rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .Main-Header {
+    padding: 0px;
+  }
+  .Main-Header .Header-Name {
+    display: none;
+  }
+  .Main-Header .container {
+    width: 730px;
+  }
+  .Main-Header .container ul {
+    padding: 0px;
+  }
+  .Main-Header .container ul li {
+    padding: 16px;
+    font-size: 14px;
+  }
+  .Main-Header .container .LetsTalk {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 738px) {
+  .Main-Header {
+    padding: 0px;
+  }
+  .Main-Header .container {
+    width: 680px;
+  }
+  .Main-Header .container ul li a {
+    font-size: 11px;
+  }
+  .Main-Header .container .LetsTalk {
+    width: 200px;
+    height: 30px;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 684px) {
+  .Main-Header {
+    padding: 5px;
+  }
+  .Main-Header .container {
+    width: 680px;
+  }
+  .Main-Header .container ul li a {
+    font-size: 11px;
+  }
+  .Main-Header .container .LetsTalk {
+    width: 70px;
+    height: 30px;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 652px) {
+  .Main-Header .container ul li a {
+    font-size: 11px;
+  }
+  .Main-Header .container .LetsTalk {
+    width: 60px;
+    height: 30px;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 644px) {
+  .Main-Header .container ul li a {
+    font-size: 10px;
+  }
+  .Main-Header .container .LetsTalk {
+    width: 60px;
+    height: 30px;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 618px) {
+  .Main-Header .container ul li a {
+    font-size: 9.5px;
+  }
+  .Main-Header .container .LetsTalk {
+    width: 60px;
+    height: 30px;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 606px) {
+  .Main-Header .container ul li a {
+    font-size: 9px;
+  }
+  .Main-Header .container .LetsTalk {
+    width: 50px;
+    height: 30px;
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 582px) {
+  .container ul li a {
+    font-size: 1px;
+  }
+}
+
+@media only screen and (max-width: 651px) {
+  .Main-Header .Header-Name {
+    font-size: 7px;
+  }
+  .Main-Header .container {
+    width: 650px;
+  }
+  .Main-Header .container ul li {
+    padding: 15px;
+  }
+  .Main-Header .container ul li a {
+    font-size: 9px;
+  }
+  .Main-Header .container .LetsTalk {
+    width: 39px;
+    height: 30px;
+    font-size: 6px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Main-Header .Header-Name {
+    font-size: 17px;
+  }
+  .Main-Header .container ul li {
+    padding: 13px;
+  }
+  .Main-Header .container ul li a {
+    font-size: 9px;
+  }
+  .Main-Header .container .LetsTalk {
+    width: 39px;
+    height: 30px;
+    font-size: 6px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .Main-Header .container ul {
+    display: none;
+  }
+  .Main-Header .LetsTalk {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

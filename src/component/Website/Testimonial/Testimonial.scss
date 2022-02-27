@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'HindSiliguri';
+    src: url('../../../assets/Fonts/HindSiliguri-Medium.ttf');
+}
+
+
+.mTestimonial{
+    display: flex;
+  align-items: center;
+    flex-direction: column;
+width: 100%;
+height: 100ch;
+margin-top: 10%;
+
+
+.Settings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mTitle{
+color:#000000;
+line-height: 0px;
+font-size: 36px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.underText{
+color: rgb(161, 164, 167);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+}
+
+.mTestimonialCard1{
+    width: 357px;
+height: 460px;
+-webkit-box-shadow: -4px -5px 35px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px -5px 35px 0px rgba(0,0,0,0.75);
+box-shadow: -4px -5px 35px 0px rgba(0,0,0,0.75);
+margin: 60px;
+border-radius: 10px;
+
+
+&:hover{
+
+    .BottomDiv1{.cImg1{
+
+        transition: 0.1s ease-in;
+        transform: scale(1.1);
+
+
+    }}
+
+}
+
+.TopDiv1{    
+    background:#f8f9fc;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 10px;
+    .hr12{
+        border: none;
+        width: 100px;
+        height: 5px;
+        background: #12a327;
+        border-radius: 2330px;
+    }
+    .hr21{
+        border: none;
+        width: 100px;
+        height: 5px;
+        background: #12a327;
+        border-radius: 2330px;
+    }
+    .comment1{
+    padding: 10px;
+    font-family: 'HindSiliguri';
+    color: gray;
+    }
+    }
+
+
+    .BottomDiv1{
+        position: relative;
+        background-image:url('../../../assets/SVG/wave10.svg');
+        background-size: cover;
+        width: 100%;
+        height: 230px;
+        background-repeat:no-repeat ;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: flex-end;
+        border-radius: 10px;
+    .cImg1{
+        position: absolute;
+    background-image: url('../../../assets/Images/Custom1.png');
+    width: 150px;
+    height: 150px;
+    border-radius: 1000px;
+    top: -30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px #ffffff solid;
+
+    }
+    
+    .customerName1{
+    color: #ffffff;
+    font-family: 'HindSiliguri';
+    
+    }
+    
+    }
+
+
+
+
+
+
+}
+
+
+
+
+.mTestimonialCard{
+width: 357px;
+height: 460px;
+-webkit-box-shadow: -4px -5px 35px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px -5px 35px 0px rgba(0,0,0,0.75);
+box-shadow: -4px -5px 35px 0px rgba(0,0,0,0.75);
+margin: 60px;
+border-radius: 10px;
+
+&:hover{
+
+    .BottomDiv{.cImg{
+
+        transition: 0.1s ease-in;
+        transform: scale(1.1);
+
+
+    }}
+
+}
+
+.TopDiv{    
+background:#f8f9fc;
+width: 100%;
+height: 320px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+line-height: 22px;
+border-radius: 10px;
+.hr1{
+    border: none;
+    width: 100px;
+    height: 5px;
+    background: #0b708a;
+    border-radius: 2330px;
+}
+.hr2{
+    border: none;
+    width: 100px;
+    height: 5px;
+    background: #0b708a;
+    border-radius: 2330px;
+}
+.comment{
+padding: 10px;
+font-family: 'HindSiliguri';
+color: gray;
+}
+}
+.BottomDiv{
+    position: relative;
+    background-image:url('../../../assets/SVG/wave9.svg');
+    background-size: cover;
+    width: 100%;
+    height: 230px;
+    background-repeat:no-repeat ;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+    border-radius: 10px;
+.cImg{
+    position: absolute;
+background-image: url('../../../assets/Images/Custom2.png');
+width: 150px;
+height: 150px;
+border-radius: 1000px;
+top: -30px;
+background-repeat: no-repeat;
+background-size: contain;
+border: 3px #ffffff solid;
+}
+
+.customerName{
+color: #ffffff;
+font-family: 'HindSiliguri';
+
+}
+
+}
+
+
+
+
+}
+
+
+
+}
